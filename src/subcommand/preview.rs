@@ -81,6 +81,8 @@ impl Preview {
           super::wallet::inscribe::Inscribe {
             batch: None,
             cbor_metadata: None,
+            utxo: Vec::new(),
+            coin_control: false,
             commit_fee_rate: None,
             destination: None,
             dry_run: false,
