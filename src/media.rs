@@ -51,6 +51,7 @@ impl Media {
     ("text/markdown;charset=utf-8", Media::Markdown, &["md"]),
     ("text/plain", Media::Text, &[]),
     ("text/plain;charset=utf-8", Media::Text, &["txt"]),
+    ("text/plain", Media::Text, &["text"]),
     ("video/mp4", Media::Video, &["mp4"]),
     ("video/webm", Media::Video, &["webm"]),
   ];
